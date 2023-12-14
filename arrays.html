@@ -11,8 +11,39 @@
 
 
     <script>
-        let my_array = ['Rayon', 'Peter', 'Kevin', 'Ian', 'Japhet', 'Mubarak', 50, 100, true, false, 'victoria', [1, 2, 3, 'john']];
-        console.log(my_array.splice)
+        // let my_array = ['Rayon', 'Peter', 'Kevin', 'Ian', 'Japhet', 'Mubarak', 50, 100, true, false, 'victoria', [1, 2, 3, 'john']];
+        // console.log(my_array.splice)
+
+        // Create an array named colors with the following elements: 'red', 'green', 'blue'.
+        // Given the array fruits, access the second element and change it to 'pear'. Then, print the modified array.
+
+        let colors = ['red', 'green', 'blue'];
+        let final = colors.splice((0, 1, 'pears'));
+        console.log(final)
+
+        // Given the array numbers, determine its length and store it in a variable lengthOfNumbers. 
+        // Then, print lengthOfNumbers.
+        console.log(final.length)
+
+        // Given the array languages, use the .pop() method to remove the last element from the array.
+        // Then, print the modified array.
+
+        console.log(final.pop())
+
+
+        // Given two arrays arr1 and arr2, combine them into a single array combinedArray using the .concat() method. 
+        // Then, remove the first element from combinedArray using the .shift() method. 
+        // Finally, print the modified combinedArr
+
+
+        let arr1 = 'hello';
+        let arr2 = ' world';
+        let combined = arr1.concat(arr2)
+        console.log(combined)
+
+        // Given an array sourceArray, extract a subarray extractedArray from index 2 to index 4 (end index not inclusive) using the .slice() method. 
+        //Then, modify the extractedArray by replacing its elements with 'x', 'y', and 'z' using the .splice() method.
+        //Finally, print both the sourceArray and the modified extractedArray.
 
         
 
